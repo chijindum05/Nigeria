@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins',sans-serif;
+    background-color: #d4e250;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #008751;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.toggle{
+    padding: 1.6rem;
+    display: none;
+    color: white;
+    cursor: pointer;
+    
+    
+    }
+    
+    .toggle i{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    }
+
+    .elastic{
+        height: 60vh;
+        
+        }
+
+.logo-img {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.logo-text-span {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #036312;
+    transform: translateY(-3px);
+    border-radius: 5px;
+}
+
+
+.flag-section {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #c5d62b;
+    box-shadow: inset 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.flag {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    padding-right: 30px;
+   
+}
+
+.green-strip {
+    background-color: #008751;
+    flex: 1;
+}
+
+.white-strip {
+    background-color: white;
+    flex: 1;
+}
+
+
+.anthem-section {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    padding: 60px 20px;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anthem-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.anthem-lyrics {
+    font-size: 20px;
+    color:black;
+    font-weight: 1.6rem;
+    border-left: 5px solid #028a0f;
+    padding-left: 20px;
+}
+
+
+.executives-section {
+    background-color: #c5d62b;
+    background-size: cover;
+    padding: 60px 20px;
+}
+
+.executives-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.executives-list {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.8;
+    color: black;
+    text-align: left;
+    justify-items: auto;
+}
+
+.last{
+background-color: #028a0f;
+padding-top: 15px;
+}
+.end{
+display: flex;
+justify-content: space-evenly ;
+}
+
+
+
+.footer-content{
+color:black;
+
+}
+
+.social-links{
+
+color:black;
+
+
+}
